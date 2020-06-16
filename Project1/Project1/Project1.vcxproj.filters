@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\0608">
+      <UniqueIdentifier>{29709c7f-734c-462e-9cab-fa16f885cdae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\0608">
+      <UniqueIdentifier>{4a95275d-01ff-4754-95a0-8155c7d99675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0609">
+      <UniqueIdentifier>{286ba5a1-1502-4ce5-8330-1e56449681b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\0609">
+      <UniqueIdentifier>{f346d94a-3d40-44c8-9bcd-5e9ec2267129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0615">
+      <UniqueIdentifier>{d2ece37c-e12a-488f-83ff-cd6eaf4766ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\0615">
+      <UniqueIdentifier>{d2c37336-474b-49a2-8eb1-71b65ea4b1a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="顺序容器的定义.cpp">
+      <Filter>源文件\0608</Filter>
+    </ClCompile>
+    <ClCompile Include="类的static成员.cpp">
+      <Filter>源文件\0608</Filter>
+    </ClCompile>
+    <ClCompile Include="深拷贝和浅拷贝.cpp">
+      <Filter>源文件\0608</Filter>
+    </ClCompile>
+    <ClCompile Include="管理指针成员.cpp">
+      <Filter>源文件\0609</Filter>
+    </ClCompile>
+    <ClCompile Include="操作符重载.cpp">
+      <Filter>源文件\0615</Filter>
+    </ClCompile>
+    <ClCompile Include="算数操作符重载.cpp">
+      <Filter>源文件\0615</Filter>
+    </ClCompile>
+    <ClCompile Include="关系操作符重载.cpp">
+      <Filter>源文件\0615</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plain-ptr.h">
+      <Filter>头文件\0609</Filter>
+    </ClInclude>
+    <ClInclude Include="smart-ptr.h">
+      <Filter>头文件\0609</Filter>
+    </ClInclude>
+    <ClInclude Include="value-ptr.h">
+      <Filter>头文件\0609</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
